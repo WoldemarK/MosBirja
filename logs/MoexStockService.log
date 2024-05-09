@@ -1,0 +1,206 @@
+2024-05-09T13:51:25.861+03:00  INFO 16124 --- [main] o.e.mosbirja.MosBirjaApplicationTests    : Starting MosBirjaApplicationTests using Java 22.0.1 with PID 16124 (started by kovty in D:\test\demo\MosBirja)
+2024-05-09T13:51:25.863+03:00  INFO 16124 --- [main] o.e.mosbirja.MosBirjaApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T13:51:28.127+03:00  INFO 16124 --- [main] o.e.mosbirja.MosBirjaApplicationTests    : Started MosBirjaApplicationTests in 2.866 seconds (process running for 4.724)
+2024-05-09T15:10:02.108+03:00  INFO 10360 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 10360 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:10:02.114+03:00  INFO 10360 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:10:02.763+03:00  INFO 10360 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:10:02.766+03:00  WARN 10360 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:10:03.257+03:00  INFO 10360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:10:03.270+03:00  INFO 10360 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:10:03.271+03:00  INFO 10360 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:10:03.332+03:00  INFO 10360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:10:03.332+03:00  INFO 10360 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2024-05-09T15:10:03.396+03:00  WARN 10360 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:10:03.399+03:00  INFO 10360 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:10:03.410+03:00  INFO 10360 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:10:03.427+03:00 ERROR 10360 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-05-09T15:13:05.967+03:00  INFO 10860 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 10860 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:13:05.968+03:00  INFO 10860 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:13:06.475+03:00  INFO 10860 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:13:06.479+03:00  WARN 10860 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:13:06.965+03:00  INFO 10860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:13:06.977+03:00  INFO 10860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:13:06.978+03:00  INFO 10860 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:13:07.036+03:00  INFO 10860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:13:07.037+03:00  INFO 10860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2024-05-09T15:13:07.103+03:00  WARN 10860 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:13:07.105+03:00  INFO 10860 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:13:07.115+03:00  INFO 10860 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:13:07.133+03:00 ERROR 10860 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-05-09T15:13:14.251+03:00  INFO 17520 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 17520 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:13:14.253+03:00  INFO 17520 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:13:14.774+03:00  INFO 17520 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:13:14.779+03:00  WARN 17520 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:13:15.245+03:00  INFO 17520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:13:15.257+03:00  INFO 17520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:13:15.257+03:00  INFO 17520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:13:15.310+03:00  INFO 17520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:13:15.311+03:00  INFO 17520 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1004 ms
+2024-05-09T15:13:15.372+03:00  WARN 17520 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:13:15.374+03:00  INFO 17520 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:13:15.384+03:00  INFO 17520 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:13:15.402+03:00 ERROR 17520 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-05-09T15:13:28.504+03:00  INFO 14424 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 14424 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:13:28.507+03:00  INFO 14424 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:13:29.182+03:00  INFO 14424 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:13:29.187+03:00  WARN 14424 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:13:29.754+03:00  INFO 14424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:13:29.768+03:00  INFO 14424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:13:29.768+03:00  INFO 14424 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:13:29.832+03:00  INFO 14424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:13:29.832+03:00  INFO 14424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1248 ms
+2024-05-09T15:13:29.908+03:00  WARN 14424 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:13:29.911+03:00  INFO 14424 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:13:29.924+03:00  INFO 14424 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:13:29.947+03:00 ERROR 14424 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-05-09T15:14:43.133+03:00  INFO 18880 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 18880 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:14:43.134+03:00  INFO 18880 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:14:43.654+03:00  INFO 18880 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:14:43.658+03:00  WARN 18880 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:14:44.107+03:00  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:14:44.122+03:00  INFO 18880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:14:44.123+03:00  INFO 18880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:14:44.178+03:00  INFO 18880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:14:44.179+03:00  INFO 18880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 987 ms
+2024-05-09T15:14:44.241+03:00  WARN 18880 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:14:44.243+03:00  INFO 18880 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:14:44.252+03:00  INFO 18880 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:14:44.270+03:00 ERROR 18880 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-05-09T15:16:55.670+03:00  INFO 18912 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 18912 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:16:55.672+03:00  INFO 18912 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:16:56.220+03:00  INFO 18912 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:16:56.223+03:00  WARN 18912 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:16:56.703+03:00  INFO 18912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:16:56.715+03:00  INFO 18912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:16:56.719+03:00  INFO 18912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:16:56.776+03:00  INFO 18912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:16:56.776+03:00  INFO 18912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2024-05-09T15:16:56.841+03:00  WARN 18912 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:16:56.844+03:00  INFO 18912 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:16:56.854+03:00  INFO 18912 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:16:56.873+03:00 ERROR 18912 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
+2024-05-09T15:23:09.879+03:00  INFO 25288 --- [main] o.example.mosbirja.MosBirjaApplication   : Starting MosBirjaApplication using Java 22.0.1 with PID 25288 (D:\test\demo\MosBirja\target\classes started by kovty in D:\test\demo\MosBirja)
+2024-05-09T15:23:09.881+03:00  INFO 25288 --- [main] o.example.mosbirja.MosBirjaApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T15:23:10.433+03:00  INFO 25288 --- [main] iguredHttpExchangeClientScannerRegistrar : Scan the @HttpExchangeClient annotated interface using the auto-configuration package. packages=[org.example.mosbirja]
+2024-05-09T15:23:10.437+03:00  WARN 25288 --- [main] l.h.c.ClassPathHttpExchangeClientScanner : No HttpExchangeClient was found in '[org.example.mosbirja]' package. Please check your configuration.
+2024-05-09T15:23:10.906+03:00  INFO 25288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8005 (http)
+2024-05-09T15:23:10.916+03:00  INFO 25288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T15:23:10.918+03:00  INFO 25288 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-09T15:23:10.973+03:00  INFO 25288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T15:23:10.973+03:00  INFO 25288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2024-05-09T15:23:11.037+03:00  WARN 25288 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mostRestController' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\rest\MostRestController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondService' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'bondRepository' defined in file [D:\test\demo\MosBirja\target\classes\org\example\mosbirja\service\BondRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'org.example.mosbirja.client.CorporateBondsClient': Unexpected exception during bean creation
+2024-05-09T15:23:11.039+03:00  INFO 25288 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T15:23:11.050+03:00  INFO 25288 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T15:23:11.068+03:00 ERROR 25288 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.mosbirja.service.BondRepository required a bean of type 'org.springframework.cloud.openfeign.FeignContext' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.cloud.openfeign.FeignContext' in your configuration.
+
